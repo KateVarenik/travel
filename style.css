@@ -1,0 +1,142 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+body{
+	background-color: #e8e8e8;
+	background: url('img/Ellipse.png') 54% 90px no-repeat;
+	font-family: "Times New Roman";
+}
+.container{
+	max-width: 842px;
+	min-height: 100vh;
+	margin: 125px auto;
+	display: flex;
+	flex-direction: column;
+}
+
+h1{
+	font-size: 14px;
+	letter-spacing: 3px;
+	line-height: 40px;
+	color: #273d46;
+	font-family: "Arial", sans-serif;
+	text-align: center;
+	opacity: 0.6;
+}
+
+h2{
+	font-size: 36px;
+	line-height: 50px;
+	color: #273d46;
+	text-align: center;
+	padding: 0 60px;
+}
+
+
+.container .mainphoto{
+	flex-basis: 80%;
+	filter: drop-shadow(0px 15px 32.5px rgba(15,16,16,0.15));
+	border: 15px solid #ffffff;
+	align-self: center;
+	margin-top: 65px;
+}
+
+.content{
+	padding: 40px 50px 0 40px;
+}
+
+.content p{
+	font-size: 24px;
+	line-height: 40px;
+	color: #273d46;
+	margin: 50px 0;
+}
+
+ul li{
+	background: url(img/check.png) left 5px no-repeat;
+	padding-left: 36px;
+	font-size: 20px;
+	line-height: 36px;
+	color: #273d46;
+	font-family: "Arial";
+}
+
+.normal{
+	filter: drop-shadow(0px 1px 0px rgba(0,0,0,0.3));
+}
+
+.colored{
+	color: #80b7b3;
+	font-style: italic;
+}
+
+.boldtext{
+	font-weight: bold;
+}
+
+.line span{
+	text-decoration: line-through;
+	opacity: 0.3;
+}
+
+.button{
+	width: 200px;
+	height: 44px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	border-radius: 30px;
+	background: #80b7b3;
+	filter: drop-shadow(0px 6px 20px rgba(128,183,179,0.54));	
+	font-size: 14px;
+	letter-spacing: 3px;
+	color: #ffffff;
+	font-family: "Arial";
+	margin-top: 60px;
+}
+
+.button img{
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
