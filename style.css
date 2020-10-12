@@ -86,7 +86,7 @@ h2{
 	margin: 50px 0;
 }
 
-ul li{
+.firstul li{
 	background: url(img/check.png) left 5px no-repeat;
 	padding-left: 36px;
 	font-size: 20px;
@@ -128,14 +128,81 @@ ul li{
 	color: #ffffff;
 	font-family: "Arial";
 	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 .button img{
 	margin-left: 10px;
 }
 
+hr{
+	width: 100%;
+	height: 2px;
+	background-color: #80b7b3;
+	margin-bottom: 30px;
+}
+
+.secondhomework{
+	padding-left: 40px;
+	margin-bottom: 30px;
+}
+
+.secondhomework .secondul li{
+	background: url(img/check.png) left 5px no-repeat;
+	padding-left: 36px;
+	font-size: 20px;
+	line-height: 36px;
+	color: #273d46;
+	font-family: "Arial";
+}
+.secondhomework .secondul li:first-child{
+	text-decoration: line-through;
+}
+
+.secondhomework .secondul li:first-child:hover{
+	text-decoration: none;
+}
+
+.secondhomework .secondul li:nth-child(2){
+	font-weight: bold;
+}
+.secondhomework .secondul li:nth-child(2):hover{
+	color: red;
+	font-weight: normal;
+	background: url(img/check-red.png) left 5px no-repeat;
+}
+.secondhomework .secondul li:nth-child(3){
+	font-style: italic;
+}
+.secondhomework .secondul li:last-child{
+	text-transform: uppercase;
+}
+.secondhomework .secondul li:nth-child(3):hover, .secondhomework .secondul li:nth-child(4):hover{
+	text-transform: none;
+	font-style: normal;
+}
 
 
+.button:hover{
+	background: #3a5855;
+}
+
+.button:active{
+	background: #818181;
+}
+
+input{
+	width: 290px;
+	min-height: 50px;
+	font-size: 20px;
+	color: #3a5855;
+	border: 1px solid #b0b0b0;
+}
+
+input:focus{
+	filter: drop-shadow(0 0 10px rgba(127,190,213,0.93));
+	border: 1px solid #7fbed5;
+}
 
 
 
